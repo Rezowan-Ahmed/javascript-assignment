@@ -53,14 +53,14 @@ console.log(result);
 // Question number -4:
 
 function tinyFriend(Name){
-    var max = Name[0];
+    var min = Name[0];
     for(var i = 0; i < Name.length; i++){
         var element = Name[i];
-        if(element < max){
-            max = element;
+        if(element < min){
+            min = element;
         }
     }
-    return max;
+    return min;
 }
 var shortFriendName = tinyFriend(["Shohanur", "Mustak", "SheponAli", "ShajjadurIslam"]);
 console.log(shortFriendName);
